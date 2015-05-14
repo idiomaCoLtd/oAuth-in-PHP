@@ -1,3 +1,4 @@
+<?php
 class OAuthException extends Exception { }
 class OAuthConsumer
 {
@@ -890,3 +891,4 @@ class OAuthUtil
 		return implode('&', $pairs);
 	}
 }
+?>
